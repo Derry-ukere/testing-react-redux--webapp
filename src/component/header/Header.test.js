@@ -10,7 +10,7 @@ const setUp = (props = {}) => {
 describe('Header component test', () => {
   it('renders without error', () => {
     const component = setUp()
-    const wrapper = component.find(`[data-test='header']`)
+    const wrapper = component.find(`[data-test='headlineComponent']`)
 
     expect(wrapper.length).toBe(1)
   })

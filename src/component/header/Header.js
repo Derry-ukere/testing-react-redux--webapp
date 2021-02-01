@@ -4,7 +4,7 @@ import './styles.css'
 
 const Header = () => {
   return (
-    <header data-test='header'>
+    <header data-test='headlineComponent'>
       <div className='wrap'>
         <div className='logo'>
           <img src={Logo} alt='logo' data-test='img' />
